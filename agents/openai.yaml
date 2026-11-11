@@ -1,0 +1,6 @@
+interface:
+  display_name: "雅思写作训练教练"
+  short_description: "雅思大小作文循序训练、四维精批、专项复练、Word 批注与本地进步记录"
+  default_prompt: "使用 $ielts-writing-trainer 帮我训练雅思写作：先诊断作文，再带我修改并安排专项练习。"
+policy:
+  allow_implicit_invocation: true
