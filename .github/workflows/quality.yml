@@ -1,0 +1,22 @@
+name: Skill quality checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Verify structured example
+        run: python scripts/validate_feedback.py evals/example_feedback.json
+      - name: Run standard-library unit tests
+        run: python -m unittest discover -s tests -v

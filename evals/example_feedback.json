@@ -1,0 +1,48 @@
+{
+  "task_type": "task2",
+  "prompt": "Some people believe schools should focus on practical life skills rather than academic subjects. Discuss both views and give your opinion.",
+  "essay": "Schools should teach practical skills because students need to manage everyday tasks. For example, learning to budget helps young adults make better decisions. However, academic subjects also matter because they help students think critically. Both types of learning should have a place in school.",
+  "visual_available": false,
+  "scores": {
+    "TR": 6,
+    "CC": 6,
+    "LR": 6,
+    "GRA": 6,
+    "overall": 6
+  },
+  "evidence": [
+    {
+      "criterion": "TR",
+      "quote": "Both types of learning should have a place in school.",
+      "finding": "The position is visible but the support is brief.",
+      "next_action": "Develop one implication for each side."
+    },
+    {
+      "criterion": "CC",
+      "quote": "However, academic subjects also matter",
+      "finding": "Contrast is signalled but ideas need fuller progression.",
+      "next_action": "Link each main idea to its consequence."
+    },
+    {
+      "criterion": "LR",
+      "quote": "learning to budget",
+      "finding": "Relevant everyday-life vocabulary is used.",
+      "next_action": "Add accurate topic-specific examples without forced synonyms."
+    },
+    {
+      "criterion": "GRA",
+      "quote": "because students need to manage everyday tasks",
+      "finding": "A subordinate clause supports the argument.",
+      "next_action": "Use varied sentence patterns while maintaining accuracy."
+    }
+  ],
+  "priorities": [
+    {
+      "issue": "Ideas are underdeveloped",
+      "action": "Add a specific example and explain its consequence.",
+      "quote": "learning to budget helps young adults make better decisions."
+    }
+  ],
+  "score_label": "unofficial_training_estimate",
+  "draft_kind": "independent"
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "id": "01-off-topic",
+    "task_type": "task2",
+    "prompt": "Some people prefer public transport to private cars. Discuss both views and give your opinion.",
+    "essay": "Many people like cars. Cars can be bought in several colours. I enjoy travelling by plane because it is fun.",
+    "expected_primary_issue": "task response: substantial off-topic content",
+    "must_not_claim": "accurate public-transport comparison"
+  },
+  {
+    "id": "02-underdeveloped",
+    "task_type": "task2",
+    "prompt": "Should schools teach financial literacy? Give reasons and examples.",
+    "essay": "Schools should teach money skills. They are important. This will help students. It is good for everyone.",
+    "expected_primary_issue": "ideas are asserted without development or support",
+    "must_not_claim": "specific real-world examples are present"
+  },
+  {
+    "id": "03-cohesion",
+    "task_type": "task2",
+    "prompt": "Do the benefits of remote learning outweigh the disadvantages?",
+    "essay": "Remote classes save commuting time. Students may miss social contact. The price of textbooks is high. Online lessons can be recorded.",
+    "expected_primary_issue": "ideas are listed without clear progression",
+    "must_not_claim": "a fully developed argument is present"
+  },
+  {
+    "id": "04-lexical-precision",
+    "task_type": "task2",
+    "prompt": "Discuss the impact of public parks on cities.",
+    "essay": "Parks do a huge influence to city people. The green spaces make a powerful convenience to residents.",
+    "expected_primary_issue": "unidiomatic collocations",
+    "must_not_claim": "spelling errors in influence"
+  },
+  {
+    "id": "05-grammar",
+    "task_type": "task2",
+    "prompt": "Should governments invest in libraries?",
+    "essay": "Libraries is useful because it give students access to books. Many resident uses them every week.",
+    "expected_primary_issue": "subject-verb agreement",
+    "must_not_claim": "complex passive voice is used"
+  },
+  {
+    "id": "06-no-question",
+    "task_type": "task2",
+    "prompt": "",
+    "essay": "I believe public transport is convenient because it reduces traffic.",
+    "expected_primary_issue": "withhold TR and overall due to missing question",
+    "must_not_claim": "verified task response"
+  },
+  {
+    "id": "07-no-chart",
+    "task_type": "academic_task1",
+    "prompt": "The chart shows electricity use in four countries.",
+    "visual_available": false,
+    "essay": "Overall, one country used more electricity than the others.",
+    "expected_primary_issue": "withhold TA and overall because the chart is unavailable",
+    "must_not_claim": "the chart values have been verified"
+  },
+  {
+    "id": "08-no-history",
+    "task_type": "task2",
+    "prompt": "Do you agree that communities should plant more trees?",
+    "essay": "I agree because trees provide shade.",
+    "request": "Compare with my last draft but no prior draft is provided.",
+    "expected_primary_issue": "cannot infer prior performance or progress",
+    "must_not_claim": "specific improvement since last session"
+  }
+]
