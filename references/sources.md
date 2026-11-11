@@ -8,6 +8,7 @@
 - https://github.com/JacobYixi/ielts-writing ：按 4.0–9.0 目标分校准生成范文、高分档加长与分段灵活。
 - https://github.com/VinceJan/ielts-claude-skills ：审题、练习和本地归档。
 - https://github.com/YANZHANLIN/ielts-claude-skills ：轻量中文交互。
+- https://github.com/imnotVictor/ielts-task2-reviewer ：回归测试组织方式及证据一致性检查的设计启发（未复制测试案例或脚本）。
 
 融合原则：训练闭环仍以独立修改为默认；用户要精批/范文时启用加长示范（见 model-essays.md），并明确区分学生稿与 model。
 

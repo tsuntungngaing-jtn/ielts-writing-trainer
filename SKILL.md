@@ -21,6 +21,7 @@ description: Use when the user wants IELTS 雅思写作训练、作文批改、�
 | 专项或每日练习 | 读取 [练习与记录](references/practice.md)，选一个弱项 |
 | Word 批注 | 读取 [文档处理](references/docx.md) |
 | 估分、评分标准 | 读取 [评分依据](references/assessment.md)；每次完整批改都读 |
+| 开发者要求评测、校准或 JSON 报告 | 读取 [评测验证](references/evaluation.md)；结构化副本必须通过确定性检查，不能把自动校验当成考官评分认证 |
 | 历史进步、训练计划 | 先读取实际本地记录，再按 [练习与记录](references/practice.md) 分析 |
 
 缺题目时，只做语言和可见论证诊断，TA/TR 与综合分留空。缺图表时，不验证数据、overview 或关键特征。缺失维度写“材料不足”，不以零分代替。片段只评可见问题，不推断全文水平。
@@ -40,5 +41,9 @@ description: Use when the user wants IELTS 雅思写作训练、作文批改、�
 ## 交付检查
 
 是否掌握题目/图表？是否区分估分和官方分？改写是否保留立场？范文是否标注目标分与 `model`？练习是否针对本篇弱点？是否把 AI 示范和独立表现分开？保存成功后才说“已记录”。
+
+## 评测边界（开发者模式）
+
+普通批改保持自然语言与训练闭环；**只有用户明确要求调试、评测或结构化报告**时，才按 [evaluation.md](references/evaluation.md) 导出独立 JSON 评测副本，并使用 `scripts/validate_feedback.py` 检查引文和评分字段。测试脚本不判断 Band 真实准确率；未做人工对照的案例不得宣称已通过评分校准。缺题目、缺图表或缺前稿时，必须说明对应判断无法完成。
 
 来源和维护依据见 [来源说明](references/sources.md)。范文规则见 [局部改写与目标分范文](references/model-essays.md)。本技能不需要外部账号或付费服务。
